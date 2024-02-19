@@ -23,6 +23,7 @@ const messageContainer = document.getElementById('message-container');
 
 // Send button click event handler
 sendButton.addEventListener('click', function() {
+  const messageInput = document.getElementById('message-input');
   const serverName = serverInput.value.trim().toLowerCase();
   const email = emailInput.value;
   const pass = passInput.value;
