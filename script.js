@@ -12,7 +12,7 @@
 // Initialize Firebase app
 firebase.initializeApp(firebaseConfig);
 
-// Get references to DOM elements
+// Get references to DOM elements 
 const serverInput = document.getElementById('server-input');
 const nameInput = document.getElementById('name-input');
 const emailInput = document.getElementById('email-input');
