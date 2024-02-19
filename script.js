@@ -29,7 +29,7 @@ sendButton.addEventListener('click', function() {
   const name = nameInput.value.trim();
  
   const message = messageInput.value;
-
+  console.log(message);
   if (serverName && name && message) {
     const serverRef = firebase.database().ref(serverName);
     serverRef.push().set({
